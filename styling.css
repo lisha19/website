@@ -1,0 +1,75 @@
+body{
+ 
+    font-family: Arvo, serif;
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1809-1024x683.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    height: 40px;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+
+.icons p{
+    font-size: 23px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+.btn{
+    background-color: rgb(138, 17, 132);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+    
+
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+}
+
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 20px;
+    padding: 40px 0;
+    
+}
+
+@media (max-width: 768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
